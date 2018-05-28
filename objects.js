@@ -1,7 +1,6 @@
-var playlist = new Object ({aTribeCalledQuest: 'can I kick it?'});
+var playlist = new Object ({Phil Ochs: "Here's to the State of Mississippi"});
 
 function updatePlaylist(playlist, artistName, songTitle) {
-  var playlist = new Object ({aTribeCalledQuest: 'can I kick it?'});
-  return playlist[aTribeCalledQuest] = 'can I kick it?'
+  return playlist[artistName] = songTitle
 
 }
